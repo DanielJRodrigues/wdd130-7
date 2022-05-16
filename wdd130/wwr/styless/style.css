@@ -1,6 +1,6 @@
-::content {
-    text-align: center;
+#contents {
     width: 1600px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #F5F5F5
 }
 header {
     background-color: #ffc42e;
@@ -47,3 +47,13 @@ footer a {
     text-decoration: none;
 }
 
+footer {
+    text-decoration: underline;
+}
+ h3 {
+     text-decoration: underline;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
