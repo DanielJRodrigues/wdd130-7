@@ -38,57 +38,53 @@ main section {
 
 body {
     background-color: #fcfbfb;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header {  
-    background-color: #ffc42e;
-    color: #ffc42e;
+    background-color: #82bfa0;
+    color: #fdf2c5;
 }
 nav a:hover {
-    background-color: #d13c74;
+    background-color: #c6d1a6;
     color: #141648;
 }
 .book {
-    background-color: #ffc42e;
-    color: #141648;
+    background-color: #7a6f5d;
+    color: #c6d1a6;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 .join {
-    background-color: #d13c74;
-    color: black;
+    background-color: #fdf2c5;
+    color: #7a6f5d;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover {
-    background-color: #d13c74;
-    color: #ffc42e;
+    background-color: #c6d1a6;
+    color: #7a6f5d;
 }
 .join:hover{
-    background-color: #24276d;
-    color: #ffc42e;
+    background-color: #7a6f5d;
+    color: #fdf2c5;
 }
 #background {
-    background-color: #d13c74;
+    background-color: #fdf2c5;
 }
 .msg{
-    background-color: #ffc42e;
+    background-color: #82bfa0;
     line-height: 1.5em;
     padding: 35px;
 }
 footer {
-    background-color: #ffc42e;
-}
-
-.home-title {
-    color:black
+    background-color: #82bfa0;
 }
 
 h4 {
@@ -110,7 +106,7 @@ footer a {
     margin-top: 200px;
 }
 footer a:hover {
-    color: #d13c74;
+    color: #7a6f5d;
 }
 footer h3 a:hover {
     text-decoration: underline;
@@ -120,14 +116,13 @@ footer h3 a:hover {
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
-    color: #24276d;
+    color: #82bfa0;
     margin-top: 10px;
 }
 .book {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    background-color: #24276d;
-    color: #d13c74;
+    
 }
 .join {
     font-size: 18px;
@@ -150,6 +145,7 @@ h2 {
 }
 footer .social img {
     padding-top: 15px;
+    
 }
 
 /*step 05*/
@@ -165,7 +161,7 @@ footer .social img {
 
 /*step 6*/
 .card-img {
-    border: 10px solid black;
+    border: 10px solid #7a6f5d;
 }
 main section img {
     box-sizing: border-box;
